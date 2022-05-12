@@ -1,14 +1,14 @@
-import "./App.css";
+import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <div>
+      <div className="input">
         <label htmlFor="username">Github username: </label>
         <input id="username" type="text" />
         <label htmlFor="fork">Include forks: </label>
         <input id="fork" type="checkbox" />
-        <div><button>Submit</button></div>
+        <button>Submit</button>
       </div>
       <section>
         <header>

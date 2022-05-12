@@ -1,4 +1,6 @@
 .App {
+  font-family: sans-serif;
+  text-align: center;
   padding: 1rem;
 }
 
@@ -43,4 +45,8 @@ button[disabled] {
 label {
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.input {
+  display: flex;
 }
